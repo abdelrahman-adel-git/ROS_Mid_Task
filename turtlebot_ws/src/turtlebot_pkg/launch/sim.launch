@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<launch>
+    <!-- Load the Gazebo world file -->
+    <include
+    file="$(find gazebo_ros)/launch/empty_world.launch" />    
+    <!-- Spawn the robot -->
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find turtlebot_pkg)/urdf/sim.urdf -urdf -model burger -x 0 -y 0 -z 0 -Y 0" output="screen"/>
+  </launch>
+  

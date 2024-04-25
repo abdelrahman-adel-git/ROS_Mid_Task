@@ -1,0 +1,8 @@
+prefix=/home/hamzawi/turtlebot_ws/devel
+
+Name: turtlebot_pkg
+Description: Description of turtlebot_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
